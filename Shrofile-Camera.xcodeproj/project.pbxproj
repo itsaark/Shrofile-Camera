@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12779A591817FB91DD912863 /* Pods_Shrofile_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C9568421637A30EB05805A /* Pods_Shrofile_Camera.framework */; };
+		DC3644341DD09C0100A0F039 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3644331DD09C0100A0F039 /* CameraViewController.swift */; };
+		DCCB15951DD0877700BE1529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB15941DD0877700BE1529 /* AppDelegate.swift */; };
+		DCCB15971DD0877700BE1529 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB15961DD0877700BE1529 /* LaunchViewController.swift */; };
+		DCCB159A1DD0877700BE1529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB15981DD0877700BE1529 /* Main.storyboard */; };
+		DCCB159C1DD0877700BE1529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB159B1DD0877700BE1529 /* Assets.xcassets */; };
+		DCCB159F1DD0877700BE1529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB159D1DD0877700BE1529 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17BE91C0E057E4EDE8BF487B /* Pods-Shrofile-Camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shrofile-Camera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shrofile-Camera/Pods-Shrofile-Camera.release.xcconfig"; sourceTree = "<group>"; };
+		C5A143334AF78F57C3254B13 /* Pods-Shrofile-Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shrofile-Camera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shrofile-Camera/Pods-Shrofile-Camera.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3644331DD09C0100A0F039 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DCCB15911DD0877700BE1529 /* Shrofile-Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shrofile-Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCB15941DD0877700BE1529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCB15961DD0877700BE1529 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		DCCB15991DD0877700BE1529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCB159B1DD0877700BE1529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCB159E1DD0877700BE1529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCB15A01DD0877700BE1529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C9568421637A30EB05805A /* Pods_Shrofile_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shrofile_Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCB158E1DD0877700BE1529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12779A591817FB91DD912863 /* Pods_Shrofile_Camera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90374F69A989C89CDB98FC5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A143334AF78F57C3254B13 /* Pods-Shrofile-Camera.debug.xcconfig */,
+				17BE91C0E057E4EDE8BF487B /* Pods-Shrofile-Camera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE86A6AF2EFF505E92946998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9568421637A30EB05805A /* Pods_Shrofile_Camera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCCB15881DD0877700BE1529 = {
+			isa = PBXGroup;
+			children = (
+				DCCB15931DD0877700BE1529 /* Shrofile-Camera */,
+				DCCB15921DD0877700BE1529 /* Products */,
+				90374F69A989C89CDB98FC5F /* Pods */,
+				AE86A6AF2EFF505E92946998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCB15921DD0877700BE1529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB15911DD0877700BE1529 /* Shrofile-Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCB15931DD0877700BE1529 /* Shrofile-Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB15941DD0877700BE1529 /* AppDelegate.swift */,
+				DCCB15961DD0877700BE1529 /* LaunchViewController.swift */,
+				DCCB15981DD0877700BE1529 /* Main.storyboard */,
+				DCCB159B1DD0877700BE1529 /* Assets.xcassets */,
+				DCCB159D1DD0877700BE1529 /* LaunchScreen.storyboard */,
+				DCCB15A01DD0877700BE1529 /* Info.plist */,
+				DC3644331DD09C0100A0F039 /* CameraViewController.swift */,
+			);
+			path = "Shrofile-Camera";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCB15901DD0877700BE1529 /* Shrofile-Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCB15A31DD0877700BE1529 /* Build configuration list for PBXNativeTarget "Shrofile-Camera" */;
+			buildPhases = (
+				26EB2685288ED67E77D36418 /* [CP] Check Pods Manifest.lock */,
+				DCCB158D1DD0877700BE1529 /* Sources */,
+				DCCB158E1DD0877700BE1529 /* Frameworks */,
+				DCCB158F1DD0877700BE1529 /* Resources */,
+				DFF10179B40A2FF724155967 /* [CP] Embed Pods Frameworks */,
+				F17444B0BE2C985E120BC7D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shrofile-Camera";
+			productName = "Shrofile-Camera";
+			productReference = DCCB15911DD0877700BE1529 /* Shrofile-Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCB15891DD0877700BE1529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Arjun Kodur";
+				TargetAttributes = {
+					DCCB15901DD0877700BE1529 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E696HLUBV9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCCB158C1DD0877700BE1529 /* Build configuration list for PBXProject "Shrofile-Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCB15881DD0877700BE1529;
+			productRefGroup = DCCB15921DD0877700BE1529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCB15901DD0877700BE1529 /* Shrofile-Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCB158F1DD0877700BE1529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCB159F1DD0877700BE1529 /* LaunchScreen.storyboard in Resources */,
+				DCCB159C1DD0877700BE1529 /* Assets.xcassets in Resources */,
+				DCCB159A1DD0877700BE1529 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26EB2685288ED67E77D36418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF10179B40A2FF724155967 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shrofile-Camera/Pods-Shrofile-Camera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17444B0BE2C985E120BC7D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shrofile-Camera/Pods-Shrofile-Camera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCB158D1DD0877700BE1529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCB15971DD0877700BE1529 /* LaunchViewController.swift in Sources */,
+				DCCB15951DD0877700BE1529 /* AppDelegate.swift in Sources */,
+				DC3644341DD09C0100A0F039 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCCB15981DD0877700BE1529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCB15991DD0877700BE1529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCB159D1DD0877700BE1529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCB159E1DD0877700BE1529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCB15A11DD0877700BE1529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCCB15A21DD0877700BE1529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCB15A41DD0877700BE1529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A143334AF78F57C3254B13 /* Pods-Shrofile-Camera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E696HLUBV9;
+				INFOPLIST_FILE = "Shrofile-Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjunkodur.Shrofile-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCCB15A51DD0877700BE1529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BE91C0E057E4EDE8BF487B /* Pods-Shrofile-Camera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E696HLUBV9;
+				INFOPLIST_FILE = "Shrofile-Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjunkodur.Shrofile-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCB158C1DD0877700BE1529 /* Build configuration list for PBXProject "Shrofile-Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCB15A11DD0877700BE1529 /* Debug */,
+				DCCB15A21DD0877700BE1529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCB15A31DD0877700BE1529 /* Build configuration list for PBXNativeTarget "Shrofile-Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCB15A41DD0877700BE1529 /* Debug */,
+				DCCB15A51DD0877700BE1529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCB15891DD0877700BE1529 /* Project object */;
+}
